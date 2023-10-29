@@ -59,6 +59,31 @@ header{
    font-family: sans-serif;
    text-transform: uppercase;
 }
-
+.icon{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+.pi-user{
+   font-size: 25px;
+   color: #ffffff;
+   padding: 10px;
+   background: #109f55;
+   border-radius: 50%;
+   cursor: pointer;
+   transition: 0.3s;
+   box-shadow: 5px 7px 10px rgba(66, 179, 128, 0.741);
+}
+.pi-shopping-cart{
+   font-size: 25px;
+   color: #109f55;
+   padding: 10px;
+   background: #ffffff;
+   border-radius: 50%;
+   cursor: pointer;
+   transition: 0.3s;
+   box-shadow: 5px 7px 10px rgba(66, 179, 128, 0.741);
+   margin-right: 20px;
+}
 
 </style>
